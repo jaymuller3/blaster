@@ -7,15 +7,15 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-# background = pygame.image.load('background.png')
+# background = pygame.image.load('img/background.png')
 
 # Title and Icon
 pygame.display.set_caption("Blaster")
-icon = pygame.image.load('ufo.png')
+icon = pygame.image.load('img/ufo.png')
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load('spaceship.png')
+playerImg = pygame.image.load('img/spaceship.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -26,7 +26,7 @@ def player(playerX, playerY):
 
 
 # Enemy
-enemyImg = pygame.image.load('alien.png')
+enemyImg = pygame.image.load('img/alien.png')
 enemyX = 370
 enemyY = 36
 enemyX_change = 0.3
